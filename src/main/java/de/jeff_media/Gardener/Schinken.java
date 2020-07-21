@@ -14,6 +14,11 @@ public class Schinken {
     void twerk(Location loc) {
         GardenersRecap recap = PlantUtils.getGrowablesInRadius(loc,main.conf.radiusX,main.conf.radiusY);
 
+        for(Block cactus : recap.cacti) {
+            main.debug("Schinken: growing cactus");
+            PlantUtils.growCactus(cactus);
+        }
+
         for(Block ageable : recap.ageables) {
             main.debug("Schinken: growing crop");
             PlantUtils.growAgeable(ageable);
