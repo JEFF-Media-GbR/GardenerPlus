@@ -33,9 +33,11 @@ public class PlantUtils {
                         recap.cacti.add(block);
                     }
 
-                    if (PlantUtils.isSapling(block)) {
+                    else if (PlantUtils.isSapling(block)) {
                         recap.saplings.add(block);
-                    } else if (PlantUtils.isAgeable(block)) {
+                    }
+
+                    else if (PlantUtils.isAgeable(block)) {
                         if (!PlantUtils.isGrown((Ageable) block.getBlockData())) {
                             recap.ageables.add(block);
                         }

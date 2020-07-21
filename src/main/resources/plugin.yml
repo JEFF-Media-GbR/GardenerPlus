@@ -3,6 +3,3 @@ name: Gardener
 version: {project.version}
 api-version: 1.13
 description: Instantly grow your crops, trees, cacti etc. by sneaking near them.
-author: mfnalex
-prefix: Gardener
-database: false
