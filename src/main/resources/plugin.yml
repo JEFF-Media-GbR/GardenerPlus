@@ -1,10 +1,8 @@
-main: Main
-name: GardenerPlus
+main: de.jeff_media.Gardener.Main
+name: Gardener
 version: {project.version}
 api-version: 1.13
-description: A plugin for growing crops and trees faster
-authors: [mfnalex, Cazcez]
-prefix: GardenerPlus
+description: Instantly grow your crops, trees, cacti etc. by sneaking near them.
+author: mfnalex
+prefix: Gardener
 database: false
-#commands:
-#  test:

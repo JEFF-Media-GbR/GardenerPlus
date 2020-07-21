@@ -1,2 +1,14 @@
-radiusX: 5
+# The radius on the X and Z axis.
+# A radiusX of 3 means all blocks within 3 blocks distance are affected,
+  # so basically a 7x7 area
+radiusX: 3
+
+# The radius on the Y axis (i.e. height).
+# A radiusY of 1 means all blocks one block above and below the player are affected,
+# so basically a total height of 3.
 radiusY: 1
+
+# The number a player has to sneak before Gardener+ will attempt to grow plants.
+required-sneaks: 6
+
+debug: false
